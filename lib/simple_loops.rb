@@ -26,11 +26,11 @@ end
 
 def return_string_array(array)
   counter = 0
-  new array = []
+  new_array = []
   
   while counter < array.length do
    new array = array.push[counter]
     counter += 1
 end 
-array
+new_array
 end 
