@@ -26,9 +26,10 @@ end
 
 def return_string_array(array)
   counter = 0
+  new array = []
   
   while counter < array.length do
-    array[counter] = array[counter].to_s
+   new array = array.push[counter]
     counter += 1
 end 
 array
