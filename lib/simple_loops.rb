@@ -16,10 +16,10 @@ def loop_message_n_times(string, n)
 end
 
 def output_array(array)
-  i = 0
+  counter = 0
   
-  while i < array.length do
-  puts i
-  i++
+  while counter < array.length do
+  puts [i]
+  counter++
 end
 end
